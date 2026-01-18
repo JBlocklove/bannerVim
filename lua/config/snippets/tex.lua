@@ -105,7 +105,7 @@ return{
 		}
 	)),
 
-	s("it", fmt(
+	s("item", fmt(
 		[[
 		\item {}
 		{}
