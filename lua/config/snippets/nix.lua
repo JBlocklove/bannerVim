@@ -36,7 +36,21 @@ return{
 		{
 			i(0,"pkgs.libz pkgs.stdenv.cc.cc.lib")
 		}
-	))
+	)),
+
+	s("pypkgs", fmt(
+		[[
+
+		(python3.withPackages(pypkgs: with pypkgs; [
+			{}
+		]))
+		{}
+		]],
+		{
+			i(1),i(0)
+		}
+	)),
+
 }
 --})
 
