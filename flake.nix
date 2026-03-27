@@ -161,7 +161,7 @@
 
 
 	packageDefinitions = {
-		catvim = {pkgs , name, ... }@misc: {
+		bannerVim = {pkgs , name, ... }@misc: {
 # they contain a settings set defined above
 # see :help nixCats.flake.outputs.settings
 			settings = {
@@ -184,7 +184,7 @@
 		};
 	};
 
-	defaultPackageName = "catvim";
+	defaultPackageName = "bannerVim";
 	in
 
 
