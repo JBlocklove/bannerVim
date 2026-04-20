@@ -2,7 +2,7 @@
 vim.keymap.set("i", "<Up>", "<Nop>")
 vim.keymap.set("i", "<Down>", "<Nop>")
 vim.keymap.set("i", "<Left>", "<Nop>")
-vim.keymap.set("i", "<Right>", "<Nop>") -- only using for copilot now
+vim.keymap.set("i", "<Right>", "<Nop>")
 vim.keymap.set("n", "<Up>", "<Nop>")
 vim.keymap.set("n", "<Down>", "<Nop>")
 vim.keymap.set("n", "<Left>", "<Nop>")

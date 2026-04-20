@@ -127,7 +127,6 @@ require('lze').load {
 		},
 	},
 
-
   -- {
   --   "rnix",
   --   -- mason doesn't have nixd

@@ -28,8 +28,8 @@ return {
 			require("blink.cmp").setup({
 				keymap =  {
 					preset = 'none',
-					["<Down>"] = { "select_next", "fallback_to_mappings" },
-					["<Up>"] = { "select_prev", "fallback_to_mappings" },
+					["<C-j>"] = { "select_next", "fallback_to_mappings" },
+					["<C-k>"] = { "select_prev", "fallback_to_mappings" },
 
 					["<C-o>"] = { "select_and_accept", "fallback" },
 					["<C-s>"] = { function(cmp) cmp.show({ providers = { 'snippets' } }) end },
